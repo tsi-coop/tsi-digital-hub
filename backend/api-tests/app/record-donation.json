@@ -1,0 +1,15 @@
+{
+  "_func":"record_donation",
+  "account_type": "BUSINESS",
+  "account_slug": "cross.in",
+  "kyc_type": "pan",
+  "kyc_value": "ABCDEF1235",
+  "address": "123 abc street,xyz, KA 10345",
+  "email_contact": "finance@cross7.in",
+  "num_years": 1,
+  "amount_paid": 12000,
+  "payment_mode": "NEFT",
+  "transaction_details": "NEFT/SBIN425158330025/CROSS SEVEN TECHNOLOGIES LLP",
+  "payment_date":"06/24/2025",
+  "donation_type": "member_services"
+}

@@ -1,0 +1,6 @@
+{
+  "_func":"get_kyc",
+  "kyc_type": "pan",
+  "account_type": "BUSINESS",
+  "account_slug": "cross.in"
+}

@@ -1,0 +1,13 @@
+{
+  "_func": "add_training",
+  "training_title": "IT Training Services",
+  "positioning": "...",
+  "training_link": "https://train",
+  "course_outline": "...",
+  "collaterals": [],
+  "start_year": 2022,
+  "num_students_range": "25-50",
+  "industry": "BFSI",
+  "trainings_offered": ["data-analysis", "machine-learning", "data-visualization", "database-mgmt"],
+  "skills_offered":["python", "mysql", "metabase"]
+}

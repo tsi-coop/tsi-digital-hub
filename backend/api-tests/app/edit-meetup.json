@@ -1,0 +1,15 @@
+{
+  "_func": "edit_meetup",
+  "id": "552ca410-62a8-448f-96d2-3f6b6b498328",
+  "type": "IN-PERSON",
+  "title": "Meetup #1",
+  "description": "My test content",
+  "meeting_date": "15/3/2025",
+  "meeting_time": "3pm-4pm",
+  "meeting_link": "https://techadvisory.substack.com",
+  "meeting_city": "Coimbatore",
+  "meeting_state": "TN",
+  "meeting_address": "...",
+  "meeting_geo_link": "...",
+  "taxonomies_offered": ["bfsi", "banking", "mfi"]
+}

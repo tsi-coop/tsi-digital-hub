@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "rfp_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "expiry": {
+      "type": "string"
+    },
+    "docs": {
+      "type": "array",
+      "items": {}
+    },
+    "to_businesses": {
+      "type": "array",
+      "items": {}
+    },
+    "to_professionals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "discoverable": {
+      "type": "number"
+    },
+    "anonymous": {
+      "type": "number"
+    },
+    "taxonomies_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "rfp_type",
+    "title",
+    "summary",
+    "expiry",
+    "docs",
+    "to_businesses",
+    "to_professionals",
+    "discoverable",
+    "anonymous",
+    "taxonomies_offered"
+  ]
+}

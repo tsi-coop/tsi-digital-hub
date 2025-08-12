@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "training_title": {
+      "type": "string"
+    },
+    "positioning": {
+      "type": "string"
+    },
+    "training_title": {
+      "type": "string"
+    },
+    "course_outline": {
+      "type": "string"
+    },
+    "collaterals": {
+      "type": "array",
+      "items": {}
+    },
+    "start_year": {
+      "type": "number"
+    },
+    "num_students_range": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "trainings_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "training_title",
+    "positioning",
+    "training_link",
+    "course_outline",
+    "collaterals",
+    "start_year",
+    "num_students_range",
+    "industry",
+    "trainings_offered",
+    "skills_offered"
+  ]
+}

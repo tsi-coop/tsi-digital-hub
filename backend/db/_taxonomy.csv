@@ -1,0 +1,225 @@
+1|bfsi|VERTICAL|Banking & Financial Services||true||1
+2|banking|VERTICAL|Banking||false|bfsi|1
+3|mfi|VERTICAL|MFI| |false|bfsi|1
+4|fintech|VERTICAL|Fintech||false|bfsi|1
+5|rating-agency|VERTICAL|Credit Rating Agencies||false|bfsi|1
+6|insurance|VERTICAL|Insurance||false|bfsi|1
+7|investment-banking|VERTICAL|Investment Banking||false|bfsi|1
+8|asset-management|VERTICAL|Asset Management||false|bfsi|1
+9|nbfc|VERTICAL|NBFC||false|bfsi|1
+10|asset-restructuring-companies|VERTICAL|Asset Restructuring Companies||false|bfsi|1
+11|healthcare|VERTICAL|Healthcare||true||1
+12|hospitals|VERTICAL|Hospitals||false|healthcare|1
+13|clinics|VERTICAL|Clinics||false|healthcare|1
+14|diagnostic-centres|VERTICAL|Diagnostic Centres||false|healthcare|1
+15|pharma|VERTICAL|Pharmaceuticals||false|healthcare|1
+16|medical-devices|VERTICAL|Medical Devices||false|healthcare|1
+17|health-it|VERTICAL|Healthcare IT||false|healthcare|1
+18|health-insurance|VERTICAL|Healthcare Insurance||false|healthcare|1
+19|health-research|VERTICAL|Healthcare Research||false|healthcare|1
+20|health-logistics|VERTICAL|Healthcare Logistics||false|healthcare|1
+21|digital-health|VERTICAL|Digital Health||false|healthcare|1
+22|medical-travel|VERTICAL|Medical Travel||false|healthcare|1
+23|retail|VERTICAL|Retail||true||1
+24|department-stores|VERTICAL|Department Stores||false|retail|1
+25|super-markets|VERTICAL|Supermarkets and Hypermarkets||false|retail|1
+26|special-stores|VERTICAL|Specialty Stores||false|retail|1
+27|discount-stores|VERTICAL|Discount Stores||false|retail|1
+28|ecommerce|VERTICAL|E-commerce||false|retail|1
+29|qcommerce|VERTICAL|Quick Commerce||false|retail|1
+30|convenience-stores|VERTICAL|Convenience Stores||false|retail|1
+31|cash-carry-stores|VERTICAL|Cash & Carry Stores||false|retail|1
+32|malls|VERTICAL|Malls||false|retail|1
+33|automotive-retail|VERTICAL|Automotive Retail||false|retail|1
+34|pharmacies|VERTICAL|Pharmacies||false|retail|1
+35|jewellery|VERTICAL|Jewellery||false|retail|1
+36|furniture|VERTICAL|Furniture||false|retail|1
+37|home-decor|VERTICAL|Home Decor||false|retail|1
+38|manufacturing|VERTICAL|Manufacturing|Manufacturing|true||1
+39|heavy-industries|VERTICAL|Heavy Industries|Iron & Steel, Cement etc|false|manufacturing|1
+40|light-industries|VERTICAL|Light Industries|Textile, Leather, Food Industries etc|false|manufacturing|1
+41|consumer-goods|VERTICAL|Consumer Goods|Electronics, Automobiles etc|false|manufacturing|1
+42|emerging-industries|VERTICAL|Emerging Industries|Renewable Energy, Auto Components, EV, Semiconductor|false|manufacturing|1
+43|network-infrastructure|HORIZONTAL|Network Infrastructure||true||1
+44|datacenter-infrastructure|HORIZONTAL|Data Center Infrastructure||true||1
+45|end-user-computing|HORIZONTAL|End-User Computing||true||1
+46|collab-tools|HORIZONTAL|Communication and Collaboration Tools||true||1
+47|realtime-communication|HORIZONTAL|Real-time Communication||false|collab-tools|1
+48|project-management|HORIZONTAL|Project Management||false|collab-tools|1
+49|document-collaboration|HORIZONTAL|Document Collaboration||false|collab-tools|1
+50|social-collaboration|HORIZONTAL|Social Collaboration||false|collab-tools|1
+51|productivity-tools|HORIZONTAL|Productivity Tools||true||1
+52|time-management|HORIZONTAL|Time Management||false|productivity-tools|1
+53|email-management|HORIZONTAL|Email Management||false|productivity-tools|1
+54|task-automation|HORIZONTAL|Task Automation||false|productivity-tools|1
+55|note-taking|HORIZONTAL|Note-taking and Information Capture||false|productivity-tools|1
+56|infosec-tools|HORIZONTAL|Information Security Tools||true||1
+57|network-security|HORIZONTAL|Network Security||false|infosec-tools|1
+58|endpoint-security|HORIZONTAL|Endpoint Security||false|infosec-tools|1
+59|iam|HORIZONTAL|Identity and Access Management||false|infosec-tools|1
+60|data-security|HORIZONTAL|Data Security||false|infosec-tools|1
+61|app-security|HORIZONTAL|Application Security||false|infosec-tools|1
+62|cloud-security|HORIZONTAL|Cloud Security||false|infosec-tools|1
+63|siem|HORIZONTAL|Security Information and Event Management||false|infosec-tools|1
+64|it-consulting|SERVICE|IT Consulting||true||1
+65|it-strategy|SERVICE|IT Strategy||false|it-consulting|1
+66|it-audit|SERVICE|IT Audit||false|it-consulting|1
+67|project-management-service|SERVICE|IT Project Management||false|it-consulting|1
+68|it-transformation|SERVICE|IT Transformation||false|it-consulting|1
+69|it-infra-services|SERVICE|IT Infra Services||true||1
+70|network-services|SERVICE|Network Services||false|it-infra-services|1
+71|datacenter-services|SERVICE|Data Center Services||false|it-infra-services|1
+72|cloud-services|SERVICE|Cloud Services||false|it-infra-services|1
+73|it-support|SERVICE|IT Support||false|it-infra-services|1
+74|it-security-services|SERVICE|IT Security Services||true||1
+75|cybersecurity-services|SERVICE|Cybersecurity||false|it-security-services|1
+76|iam-services|SERVICE|Identity and Access Management||false|it-security-services|1
+77|data-protection-services|SERVICE|Data Protection||false|it-security-services|1
+78|compliance-services|SERVICE|Compliance||false|it-security-services|1
+79|it-enabled-services|SERVICE|IT Enabled Services||true||1
+80|bpo|SERVICE|Business Process Outsourcing||false|it-enabled-services|1
+81|ito|SERVICE|Information Technology Outsourcing||false|it-enabled-services|1
+82|kpo|SERVICE|Knowledge Process Outsourcing||false|it-enabled-services|1
+83|it-staffing|SERVICE|IT Staffing||true||1
+84|contract-staffing|SERVICE|Contract Staffing||false|it-staffing|1
+85|permanent-placement|SERVICE|Permanent Placement||false|it-staffing|1
+86|executive-search|SERVICE|Executive Search||false|it-staffing|1
+87|niche-staffing|SERVICE|Niche Staffing||false|it-staffing|1
+88|remote-staffing|SERVICE|Remote Staffing||false|it-staffing|1
+89|flexi-staffing|SERVICE|On-demand Staffing||false|it-staffing|1
+90|emerging-it-services|SERVICE|Emerging IT Services||true||1
+91|data-analytics-service|SERVICE|Data Analytics||false|emerging-it-services|1
+92|ai-ml-service|SERVICE|Artificial Intelligence and Machine Learning||false|emerging-it-services|1
+93|iot-service|SERVICE|Internet of Things||false|emerging-it-services|1
+94|blockchain-service|SERVICE|Blockchain||false|emerging-it-services|1
+95|core-skills|TRAINING|Core IT Skills||true||1
+96|it-foundations|TRAINING|IT Foundations||false|core-skills|1
+97|productivity-tools-training|TRAINING|Productivity Tools||false|core-skills|1
+98|specialized-skills|TRAINING|Specialized IT Skills||true||1
+99|programming-training|TRAINING|Programming||false|specialized-skills|1
+100|networking-training|TRAINING|Networking||false|specialized-skills|1
+101|cloud-computing-training|TRAINING|Cloud Computing||false|specialized-skills|1
+102|data-science-training|TRAINING|Data Science and Analytics||false|specialized-skills|1
+103|it-infrastructure-training|TRAINING|IT Infrastructure||false|specialized-skills|1
+104|industry-skills|TRAINING|Industry-Specific IT Skills||true||1
+105|healthcare-it-training|TRAINING|IT in Healthcare||false|industry-skills|1
+106|finserv-it-training|TRAINING|IT in Finance||false|industry-skills|1
+107|manufacturing-it-training|TRAINING|IT in Manufacturing||false|industry-skills|1
+108|edtech-training|TRAINING|IT in Education||false|industry-skills|1
+109|retail-it-training|TRAINING|IT in Retail||false|industry-skills|1
+110|advanced-skills|TRAINING|Advanced IT Skills||true||1
+111|ai-ml-training|TRAINING|Artificial Intelligence||false|advanced-skills|1
+112|blockchain-training|TRAINING|Blockchain||false|advanced-skills|1
+113|ar-vr-training|TRAINING|Augmented and Virtual Reality||false|advanced-skills|1
+114|quantum-computing-training|TRAINING|Quantum Computing||false|advanced-skills|1
+115|software-dev-skills|SKILL|Software Development||true||1
+116|programming-skills|SKILL|Programming Language||false|software-dev-skills|1
+117|webdev-skills|SKILL|Web Development||false|software-dev-skills|1
+118|mobile-app-dev-skills|SKILL|Mobile App Development||false|software-dev-skills|1
+119|game-dev-skills|SKILL|Game Development||false|software-dev-skills|1
+120|version-control-skills|SKILL|Version Control||false|software-dev-skills|1
+121|data-mgmt-analysis-skills|SKILL|Data Management and Analytics||true||1
+122|data-mgmt-skills|SKILL|Database Management||false|data-mgmt-analysis-skills|1
+123|data-engineering-skills|SKILL|Data Engineering||false|data-mgmt-analysis-skills|1
+124|data-analysis-skills|SKILL|Data Analysis||false|data-mgmt-analysis-skills|1
+125|data-visualization-skills|SKILL|Data Visualization||false|data-mgmt-analysis-skills|1
+126|ai-ml-skills|SKILL|AI & ML||false|data-mgmt-analysis-skills|1
+127|cloud-devops-skills|SKILL|Cloud Computing & DevOps||true||1
+128|cloud-ops-skills|SKILL|Cloud Platforms||false|cloud-devops-skills|1
+129|containerization-skills|SKILL|Containerisation||false|cloud-devops-skills|1
+130|cicd-skills|SKILL|CI/CD||false|cloud-devops-skills|1
+131|network-security-skills|SKILL|Networking & Security||true||1
+132|it-infra-skills|SKILL|IT Infrastructure||true||1
+133|ux-design-skills|SKILL|UX Design||true||1
+134|digital-marketing-skills|SKILL|Digital Marketing||true||1
+135|project-mgmt-skills|SKILL|Project Management||true||1
+136|emerging-tech-skills|SKILL|Emerging Tech Skills||true||1
+137|itsm-skills|SKILL|IT Support & Service Management||true||1
+138|announcements|COMMUNITY_SECTION|Announcements||true||1
+139|meetups|COMMUNITY_SECTION|Meetups||true||1
+140|posts|COMMUNITY_SECTION|Posts||true||1
+141|enquiries|COMMUNITY_SECTION|Enquiries||true||1
+142|rfps|COMMUNITY_SECTION|RFPs||true||1
+143|jobs|COMMUNITY_SECTION|Jobs||true||1
+144|testimonials|COMMUNITY_SECTION|Testimonials||true||1
+145|advisory|POST_TYPE|Advisory||true||1
+146|technical|POST_TYPE|Technical||true||1
+147|misc|POST_TYPE|Miscellaneous||true||1
+148|infotech|VERTICAL|Information Technology||true||1
+149|itservices|VERTICAL|IT Services||false|infotech|1
+150|softwareprod|VERTICAL|Software Products||false|infotech|1
+151|hardwareprod|VERTICAL|Technology Product Companies (Hardware)||false|infotech|1
+152|otherit|VERTICAL|Other Specialized IT Companies||false|infotech|1
+153|agri-allied|VERTICAL|Agri & Allied Services||true||1
+154|crop-cultivation|VERTICAL|Crop Cultivation||false|agri-allied|1
+155|livestock-farming|VERTICAL|Livestock Farming||false|agri-allied|1
+156|fisheries|VERTICAL|Fisheries||false|agri-allied|1
+157|horticulture|VERTICAL|Horticulture||false|agri-allied|1
+158|forestry|VERTICAL|Forestry||false|agri-allied|1
+159|agri-inputs|VERTICAL|Agricultural Inputs (Seeds, Fertilizers, Pesticides)||false|agri-allied|1
+160|farm-machinery|VERTICAL|Farm Machinery & Equipment||false|agri-allied|1
+161|food-processing|VERTICAL|Food Processing||false|agri-allied|1
+162|agri-logistics|VERTICAL|Agricultural Logistics & Supply Chain||false|agri-allied|1
+163|agri-fintech|VERTICAL|Agri-Fintech (Rural Banking, Crop Insurance)||false|agri-allied|1
+164|agri-tech-solutions|VERTICAL|Agri-Tech Solutions (Precision Farming, Drones)||false|agri-allied|1
+165|agri-advisory|VERTICAL|Agricultural Advisory & Extension Services||false|agri-allied|1
+166|dairy-farming|VERTICAL|Dairy Farming||false|agri-allied|1
+167|education-edtech|VERTICAL|Education & EdTech||true||1
+168|k12-schools|VERTICAL|K-12 Schools||false|education-edtech|1
+169|higher-education|VERTICAL|Higher Education||false|education-edtech|1
+170|coaching-tutoring|VERTICAL|Coaching & Tutoring Centers||false|education-edtech|1
+171|vocational-training|VERTICAL|Vocational Training Institutes||false|education-edtech|1
+172|online-learning-platforms|VERTICAL|Online Learning Platforms||false|education-edtech|1
+173|education-consulting|VERTICAL|Education Consulting||false|education-edtech|1
+174|hospitality-tourism|VERTICAL|Hospitality & Tourism||true||1
+175|hotels-resorts|VERTICAL|Hotels & Resorts||false|hospitality-tourism|1
+176|restaurants-cafes|VERTICAL|Restaurants & Cafes||false|hospitality-tourism|1
+177|travel-agencies|VERTICAL|Travel Agencies & Tour Operators||false|hospitality-tourism|1
+178|event-management-hospitality|VERTICAL|Event Management (Hospitality)||false|hospitality-tourism|1
+179|homestays-guesthouses|VERTICAL|Homestays & Guesthouses||false|hospitality-tourism|1
+180|logistics-transportation|VERTICAL|Logistics & Transportation||true||1
+181|courier-delivery|VERTICAL|Courier & Delivery Services||false|logistics-transportation|1
+182|trucking-freight|VERTICAL|Trucking & Freight Forwarding||false|logistics-transportation|1
+183|warehousing-storage|VERTICAL|Warehousing & Storage||false|logistics-transportation|1
+184|last-mile-delivery|VERTICAL|Last-Mile Delivery||false|logistics-transportation|1
+185|fleet-management|VERTICAL|Fleet Management||false|logistics-transportation|1
+186|legal-professional-services|VERTICAL|Legal & Professional Services||true||1
+187|law-firms|VERTICAL|Law Firms||false|legal-professional-services|1
+188|accounting-auditing|VERTICAL|Accounting & Auditing Firms||false|legal-professional-services|1
+189|tax-consultants|VERTICAL|Tax Consultants||false|legal-professional-services|1
+190|hr-recruitment-consulting|VERTICAL|HR & Recruitment Consulting||false|legal-professional-services|1
+191|management-consulting|VERTICAL|Management Consulting (General)||false|legal-professional-services|1
+192|media-entertainment|VERTICAL|Media & Entertainment||true||1
+193|local-news-publishing|VERTICAL|Local News & Publishing||false|media-entertainment|1
+194|digital-content-creation|VERTICAL|Digital Content Creation||false|media-entertainment|1
+195|advertising-pr-agencies|VERTICAL|Advertising & PR Agencies (Local)||false|media-entertainment|1
+196|photography-videography|VERTICAL|Photography & Videography Services||false|media-entertainment|1
+197|event-production|VERTICAL|Event Production||false|media-entertainment|1
+198|auto-supply-chain|VERTICAL|Automobile Supply Chain||true||1
+199|part-manufacturers|VERTICAL|Automobile Part Manufacturers||false|auto-supply-chain|1
+200|dealerships|VERTICAL|Automobile Dealerships||false|auto-supply-chain|1
+201|maintenance-repair|VERTICAL|Automobile Maintenance & Repair Services||false|auto-supply-chain|1
+202|component-distributors|VERTICAL|Automobile Component Distributors||false|auto-supply-chain|1
+203|vehicle-logistics|VERTICAL|Vehicle Logistics & Transportation||false|auto-supply-chain|1
+204|tyre-battery-dealers|VERTICAL|Tyre & Battery Dealers||false|auto-supply-chain|1
+205|auto-accessories|VERTICAL|Automobile Accessories Retail||false|auto-supply-chain|1
+206|used-car-dealers|VERTICAL|Used Car Dealerships||false|auto-supply-chain|1
+207|electronics-appliance-services|VERTICAL|Electronics & Appliance Services & Retail||true||1
+208|smartphone-repair|VERTICAL|Smartphone Repair & Servicing||false|electronics-appliance-services|1
+209|computer-peripherals-repair|VERTICAL|Computer Peripherals Repair & Servicing||false|electronics-appliance-services|1
+210|consumer-electronics-repair|VERTICAL|Consumer Electronics Repair (TV, Audio, Appliances)||false|electronics-appliance-services|1
+211|electronics-retail-small|VERTICAL|Small Electronics & Gadget Retailers||false|electronics-appliance-services|1
+212|computer-hardware-dealers|VERTICAL|Computer Hardware Dealers||false|electronics-appliance-services|1
+213|mobile-accessories-retail|VERTICAL|Mobile Accessories & Gadget Retail||false|electronics-appliance-services|1
+214|it-hardware-rental|VERTICAL|IT Hardware Rental & Leasing||false|electronics-appliance-services|1
+215|specialized-industrial-machinery|VERTICAL|Specialized Industrial Machinery||false|manufacturing|1
+216|pump-manufacturers|VERTICAL|Pump Manufacturers||false|specialized-industrial-machinery|1
+217|baking-machinery-makers|VERTICAL|Baking Machinery Manufacturers||false|specialized-industrial-machinery|1
+218|textile-tooling-machinery|VERTICAL|Textile Tooling & Machinery Providers||false|specialized-industrial-machinery|1
+219|packaging-machinery|VERTICAL|Packaging Machinery Manufacturers||false|specialized-industrial-machinery|1
+220|food-processing-machinery|VERTICAL|Food Processing Machinery Manufacturers||false|specialized-industrial-machinery|1
+221|general-industrial-tooling|VERTICAL|General Industrial Tooling & Equipment||false|specialized-industrial-machinery|1
+222|software-development-services|SERVICE|Software Development Services||false|software-dev-services|1
+223|digital-marketing-services|SERVICE|Digital Marketing Services||false|digital-mktg-services|1
+224|data-management-services|SERVICE|Data Management Services||false|data-management-services|1
+225|ui-ux-design-services|SERVICE|UI/UX Services||false|ui-ux-design-services|1

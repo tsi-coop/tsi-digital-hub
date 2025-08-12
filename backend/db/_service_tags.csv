@@ -1,0 +1,58 @@
+1|it-consulting|MANAGEMENT|gap-analysis|Gap Analysis|||1
+2|it-consulting|MANAGEMENT|tech-roadmap|Technology Roadmap|||1
+3|it-consulting|MANAGEMENT|it-governance|IT Governance|||1
+4|it-consulting|MANAGEMENT|risk-assessment|Risk Assessment|||1
+5|it-consulting|MANAGEMENT|compliance-security-audit|Compliance and Security Audit|||1
+6|it-consulting|MANAGEMENT|project-management|Project Management|||1
+7|it-consulting|MANAGEMENT|monitoring-and-evaluation|Monitoring and Evaluation|||1
+8|it-consulting|MANAGEMENT|digital-transformation|Digital Transformation|||1
+9|it-consulting|MANAGEMENT|process-optimization|Process Optimization|||1
+10|it-infra-services|TECHNICAL|network-design|Network Design|||1
+11|it-infra-services|TECHNICAL|network-mgmt|Network Management|||1
+12|it-infra-services|TECHNICAL|datacenter-design|Datacenter Design|||1
+13|it-infra-services|TECHNICAL|datacenter-mgmt|Datacenter Management|||1
+14|it-infra-services|TECHNICAL|cloud-migration|Cloud Migration|||1
+15|it-infra-services|TECHNICAL|cloud-mgmt|Cloud Management|||1
+16|it-infra-services|TECHNICAL|cloud-security|Cloud Security|||1
+17|it-infra-services|TECHNICAL|helpdesk|Helpdesk|||1
+18|it-infra-services|TECHNICAL|desktop-support|Desktop Support|||1
+19|it-infra-services|TECHNICAL|field-service|Field Service|||1
+20|it-security-services|TECHNICAL|threat-assessment|Threat assessment|||1
+21|it-security-services|TECHNICAL|incident-response|Incident Response|||1
+22|it-security-services|TECHNICAL|security-audits|Security Audits|||1
+23|it-security-services|TECHNICAL|iam|Identity and Access Management (IAM)|||1
+24|it-security-services|TECHNICAL|dlp|Data Loss Prevention|||1
+25|it-security-services|TECHNICAL|data-backup-recovery|Data Backup & Recovery|||1
+26|it-security-services|TECHNICAL|regulatory-compliance|Regulatory Compliance|||1
+27|it-security-services|TECHNICAL|data-privacy|Data Privacy|||1
+28|it-enabled-services|TECHNICAL|bpo|Outsourcing business functions (e.g., HR, finance)|||1
+29|it-enabled-services|TECHNICAL|ito|Outsourcing IT infrastructure and operations|||1
+30|it-enabled-services|TECHNICAL|kpo|Outsourcing knowledge-intensive tasks|||1
+31|it-staffing|TECHNICAL|contract-staffing|Contract Staffing|||1
+32|it-staffing|TECHNICAL|perm-placement|Permanent Placement|||1
+33|it-staffing|TECHNICAL|exec-search|Executive Search|||1
+34|it-staffing|TECHNICAL|niche-staffing|Niche Staffing|||1
+35|it-staffing|TECHNICAL|remote-staffing|Remote Staffing|||1
+36|it-staffing|TECHNICAL|flexi-staffing|On-demand Staffing|||1
+37|emerging-it-services|TECHNICAL|data-analytics|Data Analytics|||1
+38|emerging-it-services|TECHNICAL|ai-ml|Artificial Intelligence (AI) and Machine Learning|||1
+39|emerging-it-services|TECHNICAL|iot|Internet of Things (IoT)|||1
+40|emerging-it-services|TECHNICAL|blockchain|Blockchain|||1
+41|software-development-services|TECHNICAL|custom-app-dev|Custom Application Development|||1
+42|software-development-services|TECHNICAL|web-dev-services|Web Development Services|||1
+43|software-development-services|TECHNICAL|mobile-app-dev-services|Mobile App Development Services|||1
+44|software-development-services|TECHNICAL|software-product-dev|Software Product Development|||1
+45|software-development-services|TECHNICAL|system-integration|System Integration Services|||1
+46|software-development-services|TECHNICAL|legacy-modernization|Legacy System Modernization|||1
+47|software-development-services|TECHNICAL|software-maintenance-support|Software Maintenance & Support|||1
+48|digital-marketing-services|TECHNICAL|seo-services|SEO Services|||1
+49|digital-marketing-services|TECHNICAL|smm-services|Social Media Marketing Services|||1
+50|digital-marketing-services|TECHNICAL|content-marketing-services|Content Marketing Services|||1
+51|digital-marketing-services|TECHNICAL|ppc-sem-services|PPC/SEM Services|||1
+52|digital-marketing-services|TECHNICAL|email-marketing-services|Email Marketing Services|||1
+53|digital-marketing-services|TECHNICAL|web-analytics-services|Web Analytics Services|||1
+54|data-management-services|TECHNICAL|database-admin|Database Administration|||1
+55|data-management-services|TECHNICAL|data-warehousing-solutions|Data Warehousing Solutions|||1
+56|data-management-services|TECHNICAL|etl-services|ETL Services|||1
+57|ui-ux-design-services|TECHNICAL|ui-ux-design-prototyping|UI/UX Design & Prototyping|||1
+58|ui-ux-design-services|TECHNICAL|usability-testing-services|Usability Testing Services|||1

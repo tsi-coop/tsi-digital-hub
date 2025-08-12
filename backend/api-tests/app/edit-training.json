@@ -1,0 +1,14 @@
+{
+  "_func": "edit_training",
+  "id": "b9ba7494-005c-4623-ab4e-b4f94bf8a87b",
+  "training_title": "IT Training Services",
+  "positioning": "...",
+  "training_link": "https://train2",
+  "course_outline": "...",
+  "collaterals": [],
+  "start_year": 2022,
+  "num_students_range": "100-200",
+  "industry": "BFSI",
+  "trainings_offered": ["data-analysis", "machine-learning", "data-visualization", "database-mgmt"],
+  "skills_offered":["python", "mysql", "metabase"]
+}

@@ -1,0 +1,23 @@
+{
+  "_func": "add_ambassador",
+  "account_type": "AMBASSADOR",
+  "name": "Pavan",
+  "about": ".........",
+  "solutions_interested": [
+    "health-ehr",
+    "health-mrs",
+    "it-wan",
+    "it-network-mgmt"
+  ],
+  "services_interested": [
+    "tech-roadmap",
+    "risk-assessment",
+    "compliance-security-audit"
+  ],
+  "trainings_interested": [],
+  "skills_interested": [
+    "software-dev-skills",
+    "cloud-devops-skills",
+    "it-infra-skills"
+  ]
+}

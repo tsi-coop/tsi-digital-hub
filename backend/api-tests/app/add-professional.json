@@ -1,0 +1,31 @@
+{
+  "_func": "add_professional",
+  "account_type": "PROFESSIONAL",
+  "name": "Satish ",
+  "about": ".........",
+  "gender": "M",
+  "college": "Tier-1 College (IIT/IIM)",
+  "start_year": 2023,
+  "annual_income": "5L-10L",
+  "industry": "Healthcare",
+  "state": "KE",
+  "city": "Kochi",
+  "disability":"none",
+  "solutions_interested": [
+    "health-ehr",
+    "health-mrs",
+    "it-wan",
+    "it-network-mgmt"
+  ],
+  "services_interested": [
+    "tech-roadmap",
+    "risk-assessment",
+    "compliance-security-audit"
+  ],
+  "trainings_interested": [],
+  "skills_interested": [
+    "software-dev-skills",
+    "cloud-devops-skills",
+    "it-infra-skills"
+  ]
+}

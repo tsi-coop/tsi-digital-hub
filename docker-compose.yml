@@ -1,0 +1,75 @@
+services:
+  # 1. PostgreSQL Database Service
+  # This service provides a persistent database for your backend.
+  postgres_db:
+    image: pgvector/pgvector:pg15
+    container_name: database
+    environment:
+      # These variables are read from your .env file
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWD}
+    ports:
+      # Maps host port 5432 to the container's port 5432
+      - "5432:5432"
+    volumes:
+      # A named volume to persist database data across container restarts
+      - postgres_data:/var/lib/postgresql/data
+      # Mounts the local 'db' folder to the initdb directory, so init.sql is run on first startup
+      - ./backend/db:/docker-entrypoint-initdb.d
+    healthcheck:
+      # Checks if the database is ready to accept connections before other services start
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Java Jetty Backend Service
+  # This service builds and runs your Jetty application.
+  appserver:
+    build:
+      context: ./backend  # Specifies the build context, where the Dockerfile is located
+      dockerfile: Dockerfile
+    container_name: appserver
+    ports:
+      # Maps host port 8080 to the container's port 8080
+      - "8080:8080"
+    environment:
+      # Environment variables for the backend, pulled from .env
+      POSTGRES_HOST: "jdbc:postgresql://postgres_db:5432" # Use the service name as the hostname
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWD: ${POSTGRES_PASSWD}
+      TSI_DIGITAL_HUB_ENV: ${TSI_DIGITAL_HUB_ENV}
+      ZOHO_API_HOST: ${ZOHO_API_HOST}
+      ZOHO_AUTH_KEY: ${ZOHO_AUTH_KEY}
+      SENDER_EMAIL: ${SENDER_EMAIL}
+      SENDER_NAME: ${SENDER_NAME}
+    depends_on:
+      postgres_db:
+        condition: service_healthy # Ensures the backend doesn't start until the database is ready
+
+  # 3. ReactJS Frontend Service
+  # This service builds and serves your React application via Nginx.
+  frontend:
+    build:
+      context: ./frontend # Specifies the build context for the frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "3000:80" # Maps host port 3000 to the container's port 80 (Nginx default)
+    environment:
+      # Environment variables for the frontend, pulled from .env
+      REACT_APP_TSI_API_BASE_URL: ${REACT_APP_TSI_API_BASE_URL}
+      NODE_ENV: ${NODE_ENV}
+    depends_on:
+      - appserver # Ensures the frontend starts after the backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"] # Checks if Nginx is serving content
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+# Named volume to persist PostgreSQL data
+volumes:
+  postgres_data:

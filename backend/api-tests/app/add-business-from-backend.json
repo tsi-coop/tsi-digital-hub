@@ -1,0 +1,48 @@
+{
+  "_func": "add_business_from_backend",
+  "email": "bbb@zzz.com",
+  "industry": "Healthcare",
+  "category": "FAMILY OUTFIT",
+  "business_name": "abiz1",
+  "name": "Aby",
+  "about": "...",
+  "start_year": 2023,
+  "num_employees": "26-50",
+  "state": "KA",
+  "city": "Bengaluru",
+  "solutions_interested": [
+    "health-ehr",
+    "health-mds",
+    "it-wan",
+    "it-lan",
+    "it-network-security",
+    "it-desktops-laptops",
+    "it-mobile-devices",
+    "it-idps",
+    "it-nac"
+  ],
+  "services_interested": [
+    "gap-analysis",
+    "risk-assessment",
+    "contract-staffing",
+    "niche-staffing",
+    "incident-response",
+    "iam",
+    "network-mgmt",
+    "datacenter-design",
+    "ito",
+    "helpdesk",
+    "ai-ml",
+    "blockchain"
+  ],
+  "trainings_interested": [
+    "it-foundations",
+    "productivity-tools",
+    "it-health",
+    "it-manufacturing"
+  ],
+  "skills_interested": [
+    "data-mgmt-analysis-skills",
+    "network-security-skills"
+  ]
+}

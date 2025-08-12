@@ -1,0 +1,8 @@
+{
+  "_func": "add_post",
+  "post_type": "Advisory",
+  "title": "Post #1",
+  "content": "My test content satish",
+  "source_link": "https://techadvisory.substack.com",
+  "taxonomies_offered": ["bfsi", "banking"]
+}

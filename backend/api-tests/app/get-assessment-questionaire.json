@@ -1,0 +1,7 @@
+{
+  "_func":"get_assessment_questionaire",
+  "account_type": "BUSINESS",
+  "account_slug": "cross.in",
+  "assessment_type": "capability-maturity",
+  "version": "v1"
+}

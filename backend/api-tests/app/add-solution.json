@@ -1,0 +1,19 @@
+{
+  "_func": "add_solution",
+  "solution_title": "Perdix Platform",
+  "positioning": "...",
+  "features": "...",
+  "benefits": "...",
+  "solution_link": "https://abc.com",
+  "collaterals": [],
+  "start_year": 2022,
+  "num_customers_range": "25-50",
+  "industry": "BFSI",
+  "solutions_offered": [
+    "bfsi-lms",
+    "bfsi-los",
+    "bfsi-crm",
+    "bfsi-da"
+  ],
+  "skills_used":["java","javascript", "html"]
+}

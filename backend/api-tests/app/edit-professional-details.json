@@ -1,0 +1,17 @@
+{
+  "_func": "edit_professional_details",
+  "name": "Satish Ayyaswami2",
+  "about": "This is a test",
+  "gender":"M",
+  "college":"Prominent Regional College (PSG/NIT)",
+  "disability":"None",
+  "start_year": 2000,
+  "annual_income":"3L-5L",
+  "industry": "IT",
+  "state": "TN",
+  "city":"Coimbatore",
+  "solutions_interested":["it-logmgmt", "it-incident-response", "it-threat-intelligence"],
+  "services_interested":["contract-staffing", "perm-placement"],
+  "trainings_interested": [],
+  "skills_interested":["seo-sem", "smm", "cms"]
+}

@@ -1,0 +1,37 @@
+# App Handlers
+/api/app/register=org.tsicoop.digitalhub.app.Register
+/api/app/onboard=org.tsicoop.digitalhub.app.Onboard
+/api/app/login=org.tsicoop.digitalhub.app.Login
+/api/app/post=org.tsicoop.digitalhub.app.Post
+/api/app/solution=org.tsicoop.digitalhub.app.Solution
+/api/app/service=org.tsicoop.digitalhub.app.Service
+/api/app/training=org.tsicoop.digitalhub.app.Training
+/api/app/org=org.tsicoop.digitalhub.app.Org
+/api/app/talent=org.tsicoop.digitalhub.app.Talent
+/api/app/enquiry=org.tsicoop.digitalhub.app.Enquiry
+/api/app/rfp=org.tsicoop.digitalhub.app.RFP
+/api/app/testimonial=org.tsicoop.digitalhub.app.Testimonial
+/api/app/job=org.tsicoop.digitalhub.app.Job
+/api/app/setting=org.tsicoop.digitalhub.app.Setting
+/api/app/document=org.tsicoop.digitalhub.app.Document
+/api/app/discussion=org.tsicoop.digitalhub.app.Discussion
+/api/app/lookup=org.tsicoop.digitalhub.app.Lookup
+/api/app/community=org.tsicoop.digitalhub.app.Community
+/api/app/meetup=org.tsicoop.digitalhub.app.Meetup
+/api/app/ambassador=org.tsicoop.digitalhub.app.Ambassador
+/api/app/notification=org.tsicoop.digitalhub.app.Notification
+/api/app/rating=org.tsicoop.digitalhub.app.Rating
+/api/app/support=org.tsicoop.digitalhub.app.Support
+
+# Consent
+/api/policy=org.tsicoop.digitalhub.api.Policy
+/api/consent=org.tsicoop.digitalhub.api.Consent
+/api/principal=org.tsicoop.digitalhub.api.DataPrincipal
+
+# Admin Handlers
+/api/admin/dashboard=org.tsicoop.digitalhub.admin.Dashboard
+/api/admin/moderate=org.tsicoop.digitalhub.admin.Moderate
+/api/admin/account=org.tsicoop.digitalhub.admin.Account
+/api/admin/fiduciary=org.tsicoop.digitalhub.admin.DataFiduciary
+/api/admin/policy=org.tsicoop.digitalhub.admin.Policy
+

@@ -1,0 +1,167 @@
+# Export
+C:\software\PostgreSQL\16\bin\pg_dump -h localhost -p 5433 -U postgres -d tsicoop_dpdp --data-only -t _consent -F p > C:/tempwork/dpdp/dump/consent.sql
+C:\software\PostgreSQL\16\bin\pg_dump -h localhost -p 5433 -U postgres -d tsicoop_dpdp --data-only -t _policy -F p > C:/tempwork/dpdp/dump/policy.sql
+C:\software\PostgreSQL\16\bin\pg_dump -h localhost -p 5433 -U postgres -d tsicoop_dpdp --data-only -t _data_principal -F p > C:/tempwork/dpdp/dump/data_principal.sql
+C:\software\PostgreSQL\16\bin\pg_dump -h localhost -p 5433 -U postgres -d tsicoop_dpdp --data-only -t _data_fiduciary -F p > C:/tempwork/dpdp/dump/data_fiduciary.sql
+
+# Import
+C:\software\PostgreSQL\16\bin\psql -h localhost -p 5433 -U postgres -d tsi_coop -f C:/tempwork/dpdp/dump/consent.sql
+C:\software\PostgreSQL\16\bin\psql -h localhost -p 5433 -U postgres -d tsi_coop -f C:/tempwork/dpdp/dump/data_fiduciary.sql
+C:\software\PostgreSQL\16\bin\psql -h localhost -p 5433 -U postgres -d tsi_coop -f C:/tempwork/dpdp/dump/policy.sql
+C:\software\PostgreSQL\16\bin\psql -h localhost -p 5433 -U postgres -d tsi_coop -f C:/tempwork/dpdp/dump/data_principal.sql
+
+psql -h localhost -p 5432 -U postgres -d tsi_coop -f /home/ubuntu/tsi-coop-production/db/dump/data_fiduciary.sql
+psql -h localhost -p 5432 -U postgres -d tsi_coop -f /home/ubuntu/tsi-coop-production/db/dump/policy.sql
+psql -h localhost -p 5432 -U postgres -d tsi_coop -f /home/ubuntu/tsi-coop-production/db/dump/data_principal.sql
+psql -h localhost -p 5432 -U postgres -d tsi_coop -f /home/ubuntu/tsi-coop-production/db/dump/consent.sql
+
+C:\software\PostgreSQL\16\bin\psql -h localhost -p 5433 -U postgres -d tsi_digital_hub -f C:/work/tsi-digital-hub/backend/db/init.sql
+
+REACT_APP_TSI_API_BASE_URL="https://tsicoop.org"
+REACT_APP_FIDUCIARY_KEY='2c7fc09d-a6f2-438c-94b9-8308fe3cbed5'
+REACT_APP_POLICY_KEY='8018cd87-3e61-4439-a3ac-119b4d3f7e2f'
+REACT_APP_API_BASE_URL=https://dpdp-cms.tsicoop.org
+REACT_APP_EXPIRY_DAYS=365
+REACT_APP_LOCAL_STORAGE_KEY='CONSENT_LOCAL_STORAGE_KEY'
+REACT_APP_TSI_COOP_ENV_CONSENT='tsi_coop_live_consent'
+REACT_APP_USER_ID='tsi_coop_user_id'
+NODE_ENV=prod
+
+
+
+
+
+C:\software\PostgreSQL\16\bin\psql -U postgres -d tsicoop_dpdp -h localhost -p 5433 -f c:\tempwork\dpdp\tsicoop-dpdp.sql
+pg_dump -U username -h localhost databasename >> sqlfile.sql
+
+
+Enablers
+https://www.socialalpha.org/
+https://www.changengine.in/ace-impact
+https://samagata.org/ [Forwarded to Oasis]
+https://rohininilekaniphilanthropies.org/field-of-work/active-citizenship/ [Rejected]
+https://rainmatter.org/ [No response]
+https://www.thenudge.org/
+https://svpindia.org/get-involved/apply-for-a-grant/
+
+Market
+https://www.statista.com/outlook/tmo/software/enterprise-software/india#revenue
+
+Similar organizations
+https://oasishq.org
+https://www.itcompaniesassociation.com/
+https://aiita.org/
+https://github.com/hng/tech-coops?tab=readme-ov-file#coops-asia
+
+https://timesofindia.indiatimes.com/city/coimbatore/technology-centre-to-come-up-in-coimbatore-at-200-crore/articleshow/121541946.cms
+
+TSI Coop sandbox
+ec2-13-234-31-202.ap-south-1.compute.amazonaws.com
+
+timedatectl
+timedatectl list-timezones
+sudo timedatectl set-timezone Asia/Calcutta
+timedatectl
+
+java -classpath /home/ubuntu/WEB-INF/lib/postgresql-42.4.1.jar:tsi_coop.jar org.tsicoop.digitalhub.batch.DBSync /home/ubuntu/WEB-INF
+java -classpath /home/ubuntu/prod/lib/json-simple-1.1.1.jar:tsi_coop.jar org.tsicoop.digitalhub.framework.Email
+TSI_COOP_ENV=sandbox
+export TSI_COOP_ENV
+nohup java -jar jetty-runner-10.0.11.jar tsi_coop.war >> out.log &
+
+https://github.com/tsi-cooperative/tsi-coop-app.git
+
+Certificate Renewal: https://www.vpsserver.com/renew-lets-encrypt-certificates/
+
+sudo -i -u postgres
+psql
+\l
+DROP DATABASE tsi_coop with (FORCE);
+CREATE DATABASE tsi_coop;
+\c tsi_coop
+CREATE EXTENSION vector;
+
+ALTER USER postgres WITH PASSWORD 'India2050';
+
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+
+TSI Coop Production:
+
+java -classpath /home/ubuntu/lib/postgresql-42.4.1.jar:tsi_coop.jar org.tsicoop.digitalhub.batch.DBSync /home/ubuntu
+"fiduciary_id":"2c7fc09d-a6f2-438c-94b9-8308fe3cbed5"}
+policy name:tsi_coop_policy_production
+"policy_id":"8018cd87-3e61-4439-a3ac-119b4d3f7e2f"
+
+
+## nginx configurations
+location /api {
+        proxy_pass http://localhost:8080; # Adjust the port if needed
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+}
+
+location / {
+        root /var/www/html;
+        index landing.html;
+}
+
+
+HikariCP (Connection Pool)
+
+
+
+
+
+Alters:
+alter table _cfeed ALTER COLUMN summary TYPE TEXT;
+
+One question, while doing production build I had to manually change const baseURL = "https://tsicoop.org" in the authService.js. This is fine for now. Is there a way to pass the build envt to the npm build script so that it automatically detects and use the right urls
+
+
+S3 Test:
+java -cp C:\tmp\s3\httpclient5-5.4.3.jar;C:\tmp\s3\aws-java-sdk-core-1.12.697.jar;C:\tmp\s3\aws-java-sdk-s3-1.12.697.jar;C:\tmp\s3\commons-logging-1.3.5.jar;C:\tmp\s3\jackson-databind-2.18.3.jar;C:\tmp\s3\jackson-core-2.18.3.jar;C:\tmp\s3\jackson-annotations-2.18.3.jar;C:\tmp\s3\httpcore-4.4.16.jar;C:\tmp\s3\httpclient-4.5.14.jar;C:\tmp\s3\joda-time-2.13.1.jar;target/s3util-1.0.jar test.S3Util
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiU1lTQURNSU4iLCJuYW1lIjoiVFNJIENvb3AiLCJ0eXBlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkB0c2ljb29wLm9yZyIsImlhdCI6MTc0NTQwNTIwMywiZXhwIjoxNzQ2MjY5MjAzfQ.HTT_pjdVC2KIBQ9gH7UbUiQ7WrE5cWMqS0XQMWfJcqQ" -d @C:\work\tsi-coop\api-tests\app\get-ambassador-profile.json https://sandbox.tsicoop.org/api/app/ambassador
+
+
+curl -X POST -H "Content-Type: application/json" -d @C:\work\tsi-coop\api-tests\app\register-member-send-otp.json https://sandbox.tsicoop.org/api/app/register
+curl -X POST -H "Content-Type: application/json" -d @C:\work\tsi-coop\api-tests\app\validate-member-otp.json https://sandbox.tsicoop.org/api/app/register
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiU1lTQURNSU4iLCJuYW1lIjoiVFNJIENvb3AiLCJ0eXBlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkB0c2ljb29wLm9yZyIsImlhdCI6MTc0NTM5NzYyOCwiZXhwIjoxNzQ2MjYxNjI4fQ.Ac9CRSZYyKJjrh5QvS5M8XQs6h3qq01QlKsbxbAALS0" -d @C:\work\tsi-coop\api-tests\app\get-recommended-professionals-by-skills.json https://sandbox.tsicoop.org/api/app/talent
+
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiU1lTQURNSU4iLCJuYW1lIjoiVFNJIENvb3AiLCJ0eXBlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkB0c2ljb29wLm9yZyIsImlhdCI6MTc0NjcwMDQ2MiwiZXhwIjoxNzQ3NTY0NDYyfQ.uzXSl01hNAulE9zuJCbczORgaXgem5Ipt32pDEsr-qM" -d @C:\work\tsi-coop\api-tests\app\get-all-industry-solutions-tree.json https://sandbox.tsicoop.org/api/app/onboard
+
+# Login
+curl -X POST -H "Content-Type: application/json" -d @C:\work\tsi-coop\api-tests\app\login.json https://sandbox.tsicoop.org/api/app/login
+curl -X POST -H "Content-Type: application/json" -d @C:\work\tsi-coop\api-tests\app\send-otp.json https://tsicoop.org/api/app/login
+curl -X POST -H "Content-Type: application/json" -d @C:\work\tsi-coop\api-tests\app\login.json https://tsicoop.org/api/app/login
+
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVEVDSF9QUk9GRVNTSU9OQUwiLCJuYW1lIjoiU2F0aXNoIiwidHlwZSI6IlBST0ZFU1NJT05BTCIsInN1YiI6InNhdGlzaDIwMjBAZ21haWwuY29tIiwiaWF0IjoxNzQ3OTE2MjQ1LCJleHAiOjE3NDg3ODAyNDV9.0Us5js1DjRy1F1qh1bu6grYYzhqrqLq--yOCz8xr-pg" -d @C:\work\tsi-coop\api-tests\app\add-discussion.json https://sandbox.tsicoop.org/api/app/discussion
+
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiU1lTQURNSU4iLCJuYW1lIjoiVFNJIENvb3AiLCJ0eXBlIjoiQURNSU4iLCJzdWIiOiJhZG1pbkB0c2ljb29wLm9yZyIsImlhdCI6MTc0NjcwMTM5MSwiZXhwIjoxNzQ3NTY1MzkxfQ.tcIInSVZWoXn6TzrSCtjR3Z6z1rbpHlJQDUSZYTQbvM" -d @C:\work\tsi-coop\api-tests\app\add-training.json https://sandbox.tsicoop.org/api/app/training
+
+# Get Org Profile For Edit
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQlVTSU5FU1NfQURNSU4iLCJuYW1lIjoicGF2YW4iLCJ0eXBlIjoiQlVTSU5FU1MiLCJzdWIiOiJwYXZhbkBjcm9zcy5pbiIsImlhdCI6MTc0NDk3NjA0NywiZXhwIjoxNzQ1ODQwMDQ3fQ.BHutgvBO7FBqRnfdkEYcr1N-OOgZgTN9v4Wck9r3kF0" -d @C:\work\tsi-coop\api-tests\app\get-org-profile-for-edit.json https://sandbox.tsicoop.org/api/app/setting
+# Get Talent Profile For Edit
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVEVDSF9QUk9GRVNTSU9OQUwiLCJuYW1lIjoiU2F0aXNoIiwidHlwZSI6IlBST0ZFU1NJT05BTCIsInN1YiI6InNhdGlzaDIwMjBAZ21haWwuY29tIiwiaWF0IjoxNzQ0OTc2MzA0LCJleHAiOjE3NDU4NDAzMDR9.jtGiOrCHy1ju4f1yWgPwOh7QrfmZdsOoVnuYgS16D6A" -d @C:\work\tsi-coop\api-tests\app\get-talent-profile-for-edit.json https://sandbox.tsicoop.org/api/app/setting
+# Get Ambassador Profile For Edit
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQU1CQVNTQURPUiIsIm5hbWUiOiJBbWIxIiwidHlwZSI6IkFNQkFTU0FET1IiLCJzdWIiOiJhbWIxQGdtYWlsLmNvbSIsImlhdCI6MTc0NDk3NjUwMywiZXhwIjoxNzQ1ODQwNTAzfQ.PwDmPuj5_UIyg7c4rWVKgqDrhbJsI3jaBPSE1TvkJ0U" -d @C:\work\tsi-coop\api-tests\app\get-ambassador-profile-for-edit.json https://sandbox.tsicoop.org/api/app/setting
+# Get Subscription Details
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQU1CQVNTQURPUiIsIm5hbWUiOiJQYXZhbiIsInR5cGUiOiJBTUJBU1NBRE9SIiwic3ViIjoiYW1iMUBnbWFpbC5jb20iLCJpYXQiOjE3NDQ5NzQ1MzUsImV4cCI6MTc0NTgzODUzNX0.KQXQG_R2xq_An9EbmZ_F4HIn4tWhGhtTzpZ5UZcAnmw" -d @C:\work\tsi-coop\api-tests\app\get-subscription-details.json http://localhost:8080/api/app/setting
+# Get KYC
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQU1CQVNTQURPUiIsIm5hbWUiOiJQYXZhbiIsInR5cGUiOiJBTUJBU1NBRE9SIiwic3ViIjoiYW1iMUBnbWFpbC5jb20iLCJpYXQiOjE3NDQ5NzQ1MzUsImV4cCI6MTc0NTgzODUzNX0.KQXQG_R2xq_An9EbmZ_F4HIn4tWhGhtTzpZ5UZcAnmw" -d @C:\work\tsi-coop\api-tests\app\get-kyc.json http://localhost:8080/api/app/setting
+# Store KYC
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQU1CQVNTQURPUiIsIm5hbWUiOiJQYXZhbiIsInR5cGUiOiJBTUJBU1NBRE9SIiwic3ViIjoiYW1iMUBnbWFpbC5jb20iLCJpYXQiOjE3NDQ5NzQ1MzUsImV4cCI6MTc0NTgzODUzNX0.KQXQG_R2xq_An9EbmZ_F4HIn4tWhGhtTzpZ5UZcAnmw" -d @C:\work\tsi-coop\api-tests\app\store-kyc.json http://localhost:8080/api/app/setting
+
+APIs added for Org, Professional & Ambassador Edit Profile Section 3.15.5, 3.15.7, 3.15.9
+
+Sub: OTP to log into your account

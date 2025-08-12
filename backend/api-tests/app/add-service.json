@@ -1,0 +1,13 @@
+{
+  "_func": "add_service",
+  "service_title": "IT Consulting Services",
+  "positioning": "...",
+  "description": "...",
+  "service_link": "https://abc.in",
+  "collaterals": [],
+  "start_year": 2022,
+  "num_customers_range": "25-50",
+  "industry": "BFSI",
+  "services_offered": ["project-management", "contract-staffing", "data-analytics", "cloud-migration"],
+  "skills_used":["java","javascript", "html"]
+}

@@ -1,0 +1,170 @@
+1|bfsi|VERTICAL|bfsi-cbs|Core Banking Solution|||1
+2|bfsi|VERTICAL|bfsi-ibs|Internet Banking Solution|||1
+3|bfsi|VERTICAL|bfsi-mbs|Mobile Banking Solution|||1
+5|bfsi|VERTICAL|bfsi-aa|Account Aggregator Solution|||1
+6|bfsi|VERTICAL|bfsi-upi|UPI Solution|||1
+7|bfsi|VERTICAL|bfsi-bbps|BBPS Solution|||1
+8|bfsi|VERTICAL|bfsi-enach|e-NACH Solution|||1
+9|bfsi|VERTICAL|bfsi-ckyc|CKYC Solution|||1
+10|bfsi|VERTICAL|bfsi-lms|Loan Management Solution|||1
+11|bfsi|VERTICAL|bfsi-los|Loan Origination Solution|||1
+12|bfsi|VERTICAL|bfsi-crm|Customer Relationship Management|||1
+13|bfsi|VERTICAL|bfsi-da|Data Analytics Solution|||1
+14|healthcare|VERTICAL|health-ehr|Electronic Health Records|||1
+15|healthcare|VERTICAL|health-mrd|Medical Records Database|||1
+16|healthcare|VERTICAL|health-mrs|Medical Research Software|||1
+17|healthcare|VERTICAL|health-mds|Medical Diagnosis Software|||1
+18|healthcare|VERTICAL|health-mis|Medical Imaging Software|||1
+19|healthcare|VERTICAL|health-eps|E-Prescription Software|||1
+20|healthcare|VERTICAL|health-tms|Telemedicine Software|||1
+21|healthcare|VERTICAL|health-cabs|Clinic Appointment Booking Software|||1
+22|healthcare|VERTICAL|health-mbs|Medical Billing Software|||1
+23|healthcare|VERTICAL|health-hms|Hospital Management Software|||1
+24|healthcare|VERTICAL|health-mems|Medical Equipment Management Software|||1
+25|healthcare|VERTICAL|health-hta|Health Tracking Apps|||1
+26|healthcare|VERTICAL|health-phr|Personal Health Record Software|||1
+27|healthcare|VERTICAL|health-rpm|Remote Patient Monitoring Software|||1
+28|healthcare|VERTICAL|health-mha|Mobile Health Apps|||1
+29|retail|VERTICAL|retail-pos|Point of Sale Solution|||1
+30|retail|VERTICAL|retail-ims|Inventory Management Solution|||1
+31|retail|VERTICAL|retail-scm|Supply Chain Management|||1
+32|retail|VERTICAL|retail-crm|Customer Relationship Management|||1
+33|retail|VERTICAL|retail-ecom|E-Commerce Platform|||1
+34|retail|VERTICAL|retail-ondc|ONDC Solution|||1
+35|retail|VERTICAL|retail-da|Data Analytics Solution|||1
+36|manufacturing|VERTICAL|manufacturing-erp|Enterprise Resource Planning|||1
+37|manufacturing|VERTICAL|manufacturing-scm|Supply Chain Management|||1
+38|manufacturing|VERTICAL|manufacturing-pp|Production Planning|||1
+39|manufacturing|VERTICAL|manufacturing-qc|Quality Control|||1
+40|manufacturing|VERTICAL|manufacturing-iot|IOT for Smart Factories|||1
+41|manufacturing|VERTICAL|manufacturing-pm|Predictive Maintenance|||1
+42|network-infrastructure|HORIZONTAL|it-wan|Wide Area Networks (WANs)|||1
+43|network-infrastructure|HORIZONTAL|it-lan|Local Area Networks (LANs)|||1
+44|network-infrastructure|HORIZONTAL|it-network-security|Network security|||1
+45|network-infrastructure|HORIZONTAL|it-network-mgmt|Network management|||1
+46|datacenter-infrastructure|HORIZONTAL|it-server-virtualisation|Server virtualisation|||1
+47|datacenter-infrastructure|HORIZONTAL|it-storage-solutions|Storage solutions|||1
+48|datacenter-infrastructure|HORIZONTAL|it-data-backup-recovery|Data backup and recovery|||1
+49|datacenter-infrastructure|HORIZONTAL|it-disaster-recovery|Disaster recovery|||1
+50|datacenter-infrastructure|HORIZONTAL|it-cloud-computing|Cloud computing|||1
+51|end-user-computing|HORIZONTAL|it-desktops-laptops|Desktop/Laptops|||1
+52|end-user-computing|HORIZONTAL|it-mobile-devices|Mobile devices|||1
+53|collab-tools|HORIZONTAL|it-instant-messaging|Instant messaging (IM)|||1
+54|collab-tools|HORIZONTAL|it-video-conferencing|Video conferencing|||1
+55|collab-tools|HORIZONTAL|it-screen-sharing|Screen sharing|||1
+56|collab-tools|HORIZONTAL|it-task-management|Task management|||1
+57|collab-tools|HORIZONTAL|it-gantt-charts|Gantt Charts|||1
+58|collab-tools|HORIZONTAL|it-kanban-boards|Kanban Boards|||1
+59|collab-tools|HORIZONTAL|it-document-mgmt|Document Management|||1
+60|collab-tools|HORIZONTAL|it-low-code-tools|Low Code Platforms|||1
+61|collab-tools|HORIZONTAL|it-change-management|Change Management|||1
+62|collab-tools|HORIZONTAL|it-helpdesk|Helpdesk|||1
+63|collab-tools|HORIZONTAL|it-asset-management|Asset Management|||1
+64|collab-tools|HORIZONTAL|it-knowledge-sharing|Knowledge sharing platforms|||1
+65|collab-tools|HORIZONTAL|it-calendars-and-scheduling|Calendars and scheduling|||1
+66|collab-tools|HORIZONTAL|it-time-tracking|Time tracking|||1
+67|collab-tools|HORIZONTAL|it-email-automation|Email Automation|||1
+68|collab-tools|HORIZONTAL|it-robotic-process-automation|Robotic process automation (RPA)|||1
+69|collab-tools|HORIZONTAL|it-super-app|Super App|||1
+70|collab-tools|HORIZONTAL|it-etl|ETL Tools|||1
+71|collab-tools|HORIZONTAL|it-bi|Business Intelligence|||1
+72|collab-tools|HORIZONTAL|it-api-mgmt|API Management|||1
+73|infosec-tools|HORIZONTAL|it-firewalls|Firewalls|||1
+74|infosec-tools|HORIZONTAL|it-idps|Intrusion Detection and Prevention Systems (IDPS)|||1
+75|infosec-tools|HORIZONTAL|it-vpn|Virtual Private Networks (VPNs)|||1
+76|infosec-tools|HORIZONTAL|it-nac|Network Access Control (NAC)|||1
+77|infosec-tools|HORIZONTAL|it-antivm|Antivirus and Antimalware|||1
+78|infosec-tools|HORIZONTAL|it-edr|Endpoint Detection and Response (EDR)|||1
+79|infosec-tools|HORIZONTAL|it-dlp|Data Loss Prevention (DLP)|||1
+80|infosec-tools|HORIZONTAL|it-mdm|Mobile Device Management (MDM)|||1
+81|infosec-tools|HORIZONTAL|it-sso|Single Sign-On (SSO)|||1
+82|infosec-tools|HORIZONTAL|it-gov|IT Governance|||1
+83|infosec-tools|HORIZONTAL|it-dedm|Data Encryption and Data Masking|||1
+84|infosec-tools|HORIZONTAL|it-dbr|Data Backup and Recovery|||1
+85|infosec-tools|HORIZONTAL|it-waf|Web Application Firewalls (WAF)|||1
+86|infosec-tools|HORIZONTAL|it-scp|Secure Coding Practices|||1
+87|infosec-tools|HORIZONTAL|it-vapt|Vulnerability and Penetration Testing|||1
+88|infosec-tools|HORIZONTAL|it-logmgmt|Log Management|||1
+89|infosec-tools|HORIZONTAL|it-incident-response|Incident Response|||1
+90|infosec-tools|HORIZONTAL|it-threat-intelligence|Threat Intelligence|||1
+91|productivity-tools|HORIZONTAL|time-management|Time Management|||1
+92|productivity-tools|HORIZONTAL|email-management|Email Management|||1
+93|productivity-tools|HORIZONTAL|task-automation|Task Automation|||1
+94|productivity-tools|HORIZONTAL|note-taking|Note-taking and Information Capture|||1
+95|agri-allied|VERTICAL|agri-fms|Farm Management Software|||1
+96|agri-allied|VERTICAL|agri-crop-monitoring|Crop Monitoring & Analytics (IoT, Drones)|||1
+97|agri-allied|VERTICAL|agri-scm|Agricultural Supply Chain Management|||1
+98|agri-allied|VERTICAL|agri-weather-advisory|Weather Forecasting & Advisory|||1
+99|agri-allied|VERTICAL|agri-marketplace|Agri Produce Marketplace|||1
+100|agri-allied|VERTICAL|agri-livestock-mgmt|Livestock Management Software|||1
+101|agri-allied|VERTICAL|agri-precision-farming|Precision Farming Solutions|||1
+102|agri-allied|VERTICAL|agri-soil-analysis|Soil Testing & Analysis Software|||1
+103|education-edtech|VERTICAL|edtech-lms|Learning Management System (LMS)|||1
+104|education-edtech|VERTICAL|edtech-sis|Student Information System (SIS)|||1
+105|education-edtech|VERTICAL|edtech-online-proctoring|Online Proctoring Software|||1
+106|education-edtech|VERTICAL|edtech-digital-content|Digital Content Creation Tools|||1
+107|education-edtech|VERTICAL|edtech-virtual-classroom|Virtual Classroom Software|||1
+108|education-edtech|VERTICAL|edtech-admission-mgmt|Admission Management Software|||1
+109|education-edtech|VERTICAL|edtech-fee-mgmt|Fee Management Software|||1
+110|hospitality-tourism|VERTICAL|hosp-pms|Property Management System (PMS)|||1
+111|hospitality-tourism|VERTICAL|hosp-booking-engine|Online Booking Engine|||1
+112|hospitality-tourism|VERTICAL|hosp-restaurant-pos|Restaurant Point of Sale (POS)|||1
+113|hospitality-tourism|VERTICAL|hosp-fnb-inv|F&B Inventory & Procurement|||1
+114|hospitality-tourism|VERTICAL|hosp-grm|Guest Relationship Management (GRM)|||1
+115|hospitality-tourism|VERTICAL|hosp-ota-integration|Online Travel Agency (OTA) Integration|||1
+116|hospitality-tourism|VERTICAL|hosp-event-mgmt|Event Management Software|||1
+117|logistics-transportation|VERTICAL|logi-fms|Fleet Management System (FMS)|||1
+118|logistics-transportation|VERTICAL|logi-tms|Transportation Management System (TMS)|||1
+119|logistics-transportation|VERTICAL|logi-wms|Warehouse Management System (WMS)|||1
+120|logistics-transportation|VERTICAL|logi-route-opt|Route Optimization Software|||1
+121|logistics-transportation|VERTICAL|logi-last-mile|Last-Mile Delivery Solutions|||1
+122|logistics-transportation|VERTICAL|logi-pod|Proof of Delivery (POD) Apps|||1
+123|legal-professional-services|VERTICAL|legal-practice-mgmt|Practice Management Software|||1
+124|legal-professional-services|VERTICAL|legal-dms|Document Management System (DMS)|||1
+125|legal-professional-services|VERTICAL|legal-crm|Client Relationship Management (CRM)|||1
+126|legal-professional-services|VERTICAL|legal-billing-time|Billing & Time Tracking Software|||1
+127|legal-professional-services|VERTICAL|legal-research|Legal Research Platforms|||1
+128|legal-professional-services|VERTICAL|legal-case-mgmt|Case Management Software|||1
+129|media-entertainment|VERTICAL|media-cms|Content Management System (CMS)|||1
+130|media-entertainment|VERTICAL|media-dam|Digital Asset Management (DAM)|||1
+131|media-entertainment|VERTICAL|media-audience-analytics|Audience Analytics|||1
+132|media-entertainment|VERTICAL|media-ad-mgmt|Ad Management Platform|||1
+133|media-entertainment|VERTICAL|media-live-streaming|Live Streaming Solutions|||1
+134|media-entertainment|VERTICAL|media-subscription-mgmt|Subscription Management|||1
+135|auto-supply-chain|VERTICAL|auto-dms|Dealer Management System (DMS)|||1
+136|auto-supply-chain|VERTICAL|auto-workshop-mgmt|Workshop Management Software|||1
+137|auto-supply-chain|VERTICAL|auto-parts-inv|Parts Inventory Management|||1
+138|auto-supply-chain|VERTICAL|auto-csm|Customer Service Management (CSM) for Auto|||1
+139|auto-supply-chain|VERTICAL|auto-vehicle-tracking|Vehicle Tracking (GPS)|||1
+140|auto-supply-chain|VERTICAL|auto-service-booking|Online Service Booking|||1
+141|auto-supply-chain|VERTICAL|auto-digital-showroom|Digital Showroom Solutions|||1
+142|electronics-appliance-services|VERTICAL|elec-service-mgmt|Service Management Software (Repair Shops)|||1
+143|electronics-appliance-services|VERTICAL|elec-inv-mgmt|Inventory Management (Parts & Products)|||1
+144|electronics-appliance-services|VERTICAL|elec-pos|POS System (Retail)|||1
+145|electronics-appliance-services|VERTICAL|elec-csm|Customer Service Management (CSM) for Services|||1
+146|electronics-appliance-services|VERTICAL|elec-warranty-mgmt|Warranty Management Software|||1
+147|electronics-appliance-services|VERTICAL|elec-e-waste-tracking|E-waste Management Tracking|||1
+148|manufacturing|VERTICAL|manufacturing-machine-monitoring|Machine Monitoring Systems|||1
+149|manufacturing|VERTICAL|manufacturing-cad-cam|CAD/CAM Software|||1
+150|manufacturing|VERTICAL|manufacturing-apm|Asset Performance Management (APM)|||1
+151|productivity-tools|HORIZONTAL|fin-accounting-software|Accounting Software|||1
+152|productivity-tools|HORIZONTAL|fin-invoicing-billing|Invoicing & Billing Software|||1
+153|productivity-tools|HORIZONTAL|fin-payroll-mgmt|Payroll Management Software|||1
+154|productivity-tools|HORIZONTAL|fin-expense-tracking|Expense Tracking Software|||1
+155|productivity-tools|HORIZONTAL|hr-hrms|HR Management System (HRMS)|||1
+156|productivity-tools|HORIZONTAL|hr-attendance-leave|Attendance & Leave Management|||1
+157|productivity-tools|HORIZONTAL|hr-recruitment-software|Recruitment Software (ATS)|||1
+158|productivity-tools|HORIZONTAL|gen-erp-lightweight|Lightweight ERP/Business Suites|||1
+159|productivity-tools|HORIZONTAL|gen-crm|Customer Relationship Management (CRM)|||1
+160|productivity-tools|HORIZONTAL|ecom-online-store-builder|Online Store Builder|||1
+161|productivity-tools|HORIZONTAL|ecom-marketplace-integration|Marketplace Integration|||1
+162|productivity-tools|HORIZONTAL|web-website-builder|Website Builder|||1
+163|productivity-tools|HORIZONTAL|web-cms-platform|Content Management System (CMS) Platform|||1
+164|productivity-tools|HORIZONTAL|dm-seo-tools|SEO Tools|||1
+165|productivity-tools|HORIZONTAL|dm-social-media-mgmt|Social Media Management Tools|||1
+166|productivity-tools|HORIZONTAL|dm-email-marketing|Email Marketing Platforms|||1
+167|productivity-tools|HORIZONTAL|dm-analytics-reporting|Digital Analytics & Reporting|||1
+168|collab-tools|HORIZONTAL|collab-project-mgmt-software|Project Management Software|||1
+169|collab-tools|HORIZONTAL|collab-shared-drives|Shared Drives & Document Collaboration|||1
+170|productivity-tools|HORIZONTAL|bi-reporting-dashboards|BI Reporting & Dashboards|||1
+171|productivity-tools|HORIZONTAL|bi-data-visualization|Data Visualization Tools|||1

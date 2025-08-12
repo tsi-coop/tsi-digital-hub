@@ -1,0 +1,69 @@
+1|software-dev-skills|TECHNICAL|java|Java Language|||1
+2|software-dev-skills|TECHNICAL|python|Python Programming|||1
+3|software-dev-skills|TECHNICAL|go|GO Programming|||1
+4|software-dev-skills|TECHNICAL|cpp|C++ Programming|||1
+5|software-dev-skills|TECHNICAL|javascript|Javascript Programming|||1
+6|software-dev-skills|TECHNICAL|html|HTML Programming|||1
+7|software-dev-skills|TECHNICAL|css|CSS|||1
+8|software-dev-skills|TECHNICAL|nodejs|Node JS|||1
+9|software-dev-skills|TECHNICAL|ror|Ruby on Rails|||1
+10|software-dev-skills|TECHNICAL|ios-dev|IOS Development|||1
+11|software-dev-skills|TECHNICAL|android-dev|Android Development|||1
+12|software-dev-skills|TECHNICAL|flutter|Flutter|||1
+13|software-dev-skills|TECHNICAL|reactjs|React JS|||1
+14|software-dev-skills|TECHNICAL|angular|Angular|||1
+15|software-dev-skills|TECHNICAL|react-native|React Native|||1
+16|software-dev-skills|TECHNICAL|csharp|C#|||1
+17|data-mgmt-analysis-skills|TECHNICAL|sql|SQL|||1
+18|data-mgmt-analysis-skills|TECHNICAL|postgresql|PostGreSQL|||1
+19|data-mgmt-analysis-skills|TECHNICAL|mysql|MySQL|||1
+20|data-mgmt-analysis-skills|TECHNICAL|metabase|Metabase|||1
+21|data-mgmt-analysis-skills|TECHNICAL|hadoop|Hadoop|||1
+22|data-mgmt-analysis-skills|TECHNICAL|spark|Spark|||1
+23|data-mgmt-analysis-skills|TECHNICAL|r|R|||1
+24|data-mgmt-analysis-skills|TECHNICAL|tableau|Tableau|||1
+25|data-mgmt-analysis-skills|TECHNICAL|power-bi|PowerBI|||1
+26|cloud-devops-skills|TECHNICAL|aws|AWS|||1
+27|cloud-devops-skills|TECHNICAL|azure|Azure|||1
+28|cloud-devops-skills|TECHNICAL|google-cloud|Google Cloud|||1
+29|cloud-devops-skills|TECHNICAL|docker|Docker|||1
+30|cloud-devops-skills|TECHNICAL|kubernetes|Kubernetes|||1
+31|cloud-devops-skills|TECHNICAL|jenkins|Jenkins|||1
+32|cloud-devops-skills|TECHNICAL|git|Git|||1
+33|cloud-devops-skills|TECHNICAL|svn|SVN|||1
+34|cloud-devops-skills|TECHNICAL|terraform|Terraform|||1
+35|cloud-devops-skills|TECHNICAL|ansible|Ansible|||1
+36|network-security-skills|TECHNICAL|network-administration|Network Administration|||1
+37|network-security-skills|TECHNICAL|cybersecurity|Cybersecurity|||1
+38|network-security-skills|TECHNICAL|ethical-hacking|Ethical Hacking|||1
+39|network-security-skills|TECHNICAL|firewall-mgmt|Firewall Management|||1
+40|network-security-skills|TECHNICAL|vpn|VPN Technologies|||1
+41|it-infra-skills|TECHNICAL|sysadmin|Systems Administration (Windows, Linux)|||1
+42|it-infra-skills|TECHNICAL|virtualisation|Virtualisation (VMware, Hyper-V)|||1
+43|it-infra-skills|TECHNICAL|storage-tech|Storage Technologies|||1
+44|it-infra-skills|TECHNICAL|backup-recovery|Backup and Recovery|||1
+45|ux-design-skills|TECHNICAL|ui-ux-design|UI/UX Design|||1
+46|ux-design-skills|TECHNICAL|graphics-design|Graphics Design|||1
+47|ux-design-skills|TECHNICAL|wireframing|Wireframing and Prototyping|||1
+48|ux-design-skills|TECHNICAL|ux-research|User Research and Testing|||1
+49|digital-marketing-skills|TECHNICAL|seo-sem|SEO/SEM|||1
+50|digital-marketing-skills|TECHNICAL|smm|Social Media Marketing|||1
+51|digital-marketing-skills|TECHNICAL|cms|Content Management Systems|||1
+52|digital-marketing-skills|TECHNICAL|agile|Agile/Scrum|||1
+53|project-mgmt-skills|TECHNICAL|itil|ITIL|||1
+54|project-mgmt-skills|TECHNICAL|six-sigma|Six Sigma|||1
+55|project-mgmt-skills|TECHNICAL|project-mgmt|Project Management Tools (JIRA, Trello)|||1
+56|emerging-tech-skills|TECHNICAL|iot|Internet of Things (IoT)|||1
+57|emerging-tech-skills|TECHNICAL|blockchain|Blockchain|||1
+58|emerging-tech-skills|TECHNICAL|ar-vr|Augmented Reality (AR) / Virtual Reality (VR)|||1
+59|emerging-tech-skills|TECHNICAL|ai-ml|AI/ML|||1
+60|itsm-skills|TECHNICAL|helpdesk|Help Desk Support|||1
+61|itsm-skills|TECHNICAL|itsm|IT Service Management|||1
+62|itsm-skills|TECHNICAL|tech-documentation|Technical Documentation|||1
+63|itsm-skills|TECHNICAL|crm|Customer Relationship Management (CRM) Systems|||1
+64|software-dev-skills|TECHNICAL|spring-boot|Spring Boot Framework|||1
+65|software-dev-skills|TECHNICAL|django|Django Framework|||1
+66|data-mgmt-analysis-skills|TECHNICAL|mongodb|MongoDB|||1
+67|software-dev-skills|TECHNICAL|restful-api-design|RESTful API Design|||1
+68|data-mgmt-analysis-skills|TECHNICAL|etl-skills|ETL Tools & Concepts|||1
+69|network-security-skills|TECHNICAL|soc-analysis|SOC Analysis|||1

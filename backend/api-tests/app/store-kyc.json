@@ -1,0 +1,7 @@
+{
+  "_func":"store_kyc",
+  "kyc_type": "pan",
+  "kyc_value": "ABCDEF1234",
+  "account_type": "BUSINESS",
+  "account_slug": "tsicoop.org"
+}

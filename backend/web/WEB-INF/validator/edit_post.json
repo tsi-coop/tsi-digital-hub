@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "post_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "source_link": {
+      "type": "string"
+    },
+    "taxonomies_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "id",
+    "post_type",
+    "title",
+    "content",
+    "source_link",
+    "taxonomies_offered"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_func": "add_rfp",
+  "rfp_type": "SOLUTIONS",
+  "title": "Test2",
+  "summary": "...",
+  "expiry": "31/12/2024",
+  "docs": [],
+  "to_businesses": [],
+  "to_professionals": ["satish2020@gmail.com"],
+  "discoverable": 1,
+  "anonymous": 1,
+  "taxonomies_offered": ["bfsi", "banking", "mfi"]
+}

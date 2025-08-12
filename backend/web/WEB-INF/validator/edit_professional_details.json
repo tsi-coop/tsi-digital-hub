@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "college": {
+      "type": "string"
+    },
+    "disability": {
+      "type": "string"
+    },
+    "start_year": {
+      "type": "number"
+    },
+    "annual_income": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "solutions_interested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "services_interested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trainings_interested": {
+      "type": "array",
+      "items": {}
+    },
+    "skills_interested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "name",
+    "about",
+    "gender",
+    "college",
+    "disability",
+    "start_year",
+    "annual_income",
+    "industry",
+    "state",
+    "city",
+    "solutions_interested",
+    "services_interested",
+    "trainings_interested",
+    "skills_interested"
+  ]
+}

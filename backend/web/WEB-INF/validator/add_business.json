@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "business_name": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "start_year": {
+      "type": "number"
+    },
+    "num_employees": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "city": {
+      "type": "string"
+    },
+    "solutions_interested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "services_interested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trainings_interested": {
+      "type": "array",
+      "items": {}
+    },
+    "skills_interested": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "_func",
+    "industry",
+    "category",
+    "business_name",
+    "name",
+    "about",
+    "start_year",
+    "num_employees",
+    "state",
+    "city",
+    "solutions_interested",
+    "services_interested",
+    "trainings_interested",
+    "skills_interested"
+  ]
+}

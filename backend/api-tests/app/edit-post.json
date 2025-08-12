@@ -1,0 +1,9 @@
+{
+  "_func": "edit_post",
+  "id": "17b71cf7-2464-4a43-a490-f10642c57d79",
+  "post_type": "NOTIFICATION",
+  "title": "Post #1",
+  "content": "My test content",
+  "source_link": "https://techadvisory.substack.com",
+  "taxonomies_offered": ["bfsi", "banking", "mfi"]
+}

@@ -1,0 +1,25 @@
+{
+  "_func": "edit_business_details",
+  "business_name": "Cross7",
+  "about": "This is a test",
+  "start_year": 2022,
+  "num_employees": "26-50",
+  "category": "startup",
+  "industry": "bfsi",
+  "state": "AP",
+  "city": "Vijayawada",
+  "solutions_interested": [
+    "health-mrd",
+    "it-wan",
+    "it-lan",
+    "health-hta"
+  ],
+  "services_interested": [
+    "gap-analysis",
+    "tech-roadmap",
+    "network-design",
+    "network-mgmt"
+  ],
+  "trainings_interested": [],
+  "skills_interested": []
+}

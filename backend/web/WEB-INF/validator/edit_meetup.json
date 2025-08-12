@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "meeting_date": {
+      "type": "string"
+    },
+    "meeting_time": {
+      "type": "string"
+    },
+    "meeting_link": {
+      "type": "string"
+    },
+    "meeting_city": {
+      "type": "string"
+    },
+    "meeting_state": {
+      "type": "string"
+    },
+    "meeting_address": {
+      "type": "string"
+    },
+    "meeting_geo_link": {
+      "type": "string"
+    },
+    "taxonomies_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "id",
+    "type",
+    "title",
+    "description",
+    "meeting_date",
+    "meeting_time",
+    "meeting_link",
+    "meeting_city",
+    "meeting_state",
+    "meeting_address",
+    "meeting_geo_link",
+    "taxonomies_offered"
+  ]
+}

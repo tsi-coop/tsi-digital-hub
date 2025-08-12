@@ -1,0 +1,9 @@
+{
+  "_func": "add_job",
+  "job_type": "FULLTIME",
+  "title": "...",
+  "description": "...",
+  "state": "TN",
+  "city": "Coimbatore",
+  "taxonomies_offered": ["bfsi", "banking", "mfi"]
+}

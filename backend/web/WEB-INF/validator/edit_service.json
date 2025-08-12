@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "service_title": {
+      "type": "string"
+    },
+    "positioning": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "service_link": {
+      "type": "string"
+    },
+    "collaterals": {
+      "type": "array",
+      "items": {}
+    },
+    "start_year": {
+      "type": "number"
+    },
+    "num_customers_range": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "services_offered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "_func",
+    "id",
+    "service_title",
+    "positioning",
+    "description",
+    "service_link",
+    "collaterals",
+    "start_year",
+    "num_customers_range",
+    "industry",
+    "services_offered",
+    "skills_used"
+  ]
+}

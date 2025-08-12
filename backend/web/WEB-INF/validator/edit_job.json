@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "_func": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "job_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "taxonomies_offered": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "_func",
+    "id",
+    "job_type",
+    "title",
+    "description",
+    "state",
+    "city",
+    "taxonomies_offered"
+  ]
+}

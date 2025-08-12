@@ -1,0 +1,8 @@
+{
+  "_func": "add_testimonial",
+  "testimonial_type": "SOLUTIONS",
+  "testimonial": "Test2",
+  "to_account_type": "PROFESSIONAL",
+  "to_account_slug":"satish2020@gmail.com",
+  "taxonomies_offered": ["bfsi", "banking", "mfi"]
+}

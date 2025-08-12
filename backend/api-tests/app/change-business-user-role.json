@@ -1,0 +1,5 @@
+{
+  "_func": "change_business_user_role",
+  "email": "lakshmi@xyz.com",
+  "role": "BUSINESS_ADMIN"
+}

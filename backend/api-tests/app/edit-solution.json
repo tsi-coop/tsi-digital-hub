@@ -1,0 +1,20 @@
+{
+  "_func": "edit_solution",
+  "id": "50c6f848-d12f-4287-8d0a-95e18ffe7972",
+  "solution_title": "Perdix Platform",
+  "positioning": "...",
+  "features": "...",
+  "benefits": "...",
+  "solution_link": "https://xyz.com",
+  "collaterals": [],
+  "start_year": 2022,
+  "num_customers_range": "25-50",
+  "industry": "BFSI",
+  "solutions_offered": [
+    "bfsi-lms",
+    "bfsi-los",
+    "bfsi-crm",
+    "bfsi-da"
+  ],
+  "skills_used":["java","javascript", "html"]
+}
